@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class Pickupable : MonoBehaviour {
-
+    
 	// Use this for initialization
 	void Start () {
 	
@@ -12,4 +12,6 @@ public class Pickupable : MonoBehaviour {
 	void Update () {
 	
 	}
+
+
 }
