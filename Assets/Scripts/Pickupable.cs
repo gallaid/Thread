@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class Pickupable : MonoBehaviour {
-    
+    GameObject beingHeldBy;
 	// Use this for initialization
 	void Start () {
 	
@@ -12,6 +12,12 @@ public class Pickupable : MonoBehaviour {
 	void Update () {
 	
 	}
+
+
+   public void WhosHoldingMe(GameObject player)
+    {
+        beingHeldBy = player;
+    }
 
 
 }
